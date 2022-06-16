@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 556px;
+  padding: 10px;
+  margin-bottom: 2px;
+  background-color: white;
+  cursor: pointer;
+  /* border: 2px solid black; */
+}
+
+.suggest_text {
+  color: rgb(5, 140, 193);
+  font-weight: 600;
+}
+
+.post_button {
+  background-color: orange;
+  width: 130px;
+  color: white;
+  font-size: medium;
+  border: none;
+  border-radius: 30px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.arrow_icon {
+  position: relative;
+  top: 3px;
+}

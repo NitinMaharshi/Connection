@@ -1,0 +1,62 @@
+.nav_Container {
+  width: 556px;
+  padding: 10px;
+  margin-bottom: 2px;
+  background-color: white;
+}
+
+ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.search_box {
+  position: relative;
+  background-color: lightgray;
+  left: -15px;
+  border-radius: 5px;
+}
+
+.form_control {
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightgray;
+  height: 35px;
+  outline: none;
+  font-size: large;
+}
+.user_image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.nav_image_div {
+  position: relative;
+  left: -45px;
+}
+
+.slider_icon {
+  position: relative;
+  top: 4px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+.nav_icons {
+  width: 30px;
+  height: 30px;
+}
